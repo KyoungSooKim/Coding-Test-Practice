@@ -7,3 +7,11 @@ BFS/DFS
 3. sys.setrecursionlimit(10**6) 재귀 리미트
 4. for X in "abc" => X = a, b, c
 5. import copy, copy.deapcopy(list) (shallow, deap copy reference: https://wikidocs.net/16038)
+
+sort
+
+1. type() 타입확인
+2. '@'.join(list)  ex(a@b@c)
+3. function functools import cmp_to_key
+   list로 반환  sorted(list, key = cmp_to_key(function))
+   function 반환갑 -1, 0 , 1
