@@ -13,5 +13,6 @@ sort
 1. type() 타입확인
 2. '@'.join(list)  ex(a@b@c)
 3. function functools import cmp_to_key
-   list로 반환  sorted(list, key = cmp_to_key(function))
-   function 반환갑 -1, 0 , 1
+   list로 반환한다  sorted(list, key = cmp_to_key(function))
+   function 반환값 -1, 0 , 1
+4. for i, v in enumerate(list)
