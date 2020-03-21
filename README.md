@@ -2,11 +2,15 @@
 
 BFS/DFS
 
-1. from collectiions import deque
-2. dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
-3. sys.setrecursionlimit(10**6) 재귀 리미트
-4. for X in "abc" => X = a, b, c
-5. import copy, copy.deapcopy(list) (shallow, deap copy reference: https://wikidocs.net/16038)
+1. queue: from collectiions import deque
+2. 상하좌우: dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
+3. 재귀 리미트: sys.setrecursionlimit(10**6)
+4. string for문 : for X in "abc" => X = a, b, c
+5. 깊은 복사: import copy, copy.deapcopy(list) (shallow, deap copy reference: https://wikidocs.net/16038)
+6. 리스트 리버스: list.reverse()
+7. 10진수 2진수로 변환: bin(x)[2:] (문자의 앞 2개는 ob라서 슬라이싱함)
+8. rjust: "AB".rjust(5,'1') == "111AB"
+9. replace: "AB".replace('1', '#') == "###AB"
 
 sort
 
