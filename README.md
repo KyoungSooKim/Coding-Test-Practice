@@ -12,7 +12,6 @@
 * for key, val in dict.items()
 * del dict[key]
 
-
 ## LIST
 * deep copy : import copy, copy.deepcopy(list)
 * 리스트 리버스 : list.reverse()
@@ -30,6 +29,12 @@
  * for x, y in zip(list1, list2)
  * for i, v in enumerate(list)
 
+## PERMUTATIONS/COMBINATIONS
+* form itertools import combinations or permutations
+* permutations(list, length) , combinations(list)
+* list(set(map(''.join, permutations(list,length))))
+
 ## 기타
-*  타입확인 : type()
+* 타입확인 : type()
 * 10진수 2진수로 변환 : bin(x)[2:] (문자의 앞 2개는 ob라서 슬라이싱함)
+* chr(90) = 'Z' , ord("Z") = 90
