@@ -14,7 +14,8 @@
 
 ## LIST
 * deep copy : import copy, copy.deepcopy(list)
-* 리스트 리버스 : list.reverse()
+* 리스트 리버스 : list.reverse() , list(reversed(List))
+* list.count(x) ,list.index(x) < x 없으면 error >
 * '@'.join(list)  ex : a@b@c  
 
 ## SORT
