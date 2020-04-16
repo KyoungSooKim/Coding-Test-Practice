@@ -38,4 +38,6 @@
 ## 기타
 * 타입확인 : type()
 * 10진수 2진수로 변환 : bin(x)[2:] (문자의 앞 2개는 ob라서 슬라이싱함)
+* m진수 number 10진수로 변환 : int(number, m)
 * chr(90) = 'Z' , ord("Z") = 90
+* list 안의 내용 유무 확인 : if not list, if list
