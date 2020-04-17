@@ -23,6 +23,9 @@
 
 ## STR
 * for구문으로 string 다루기 : for X in "abc" => X = a, b, c
+* str = "1  "  , str.split(" ") => [1, '', '']  
+* str.upper(), str.lower()
+* string의 첫번째로 나오는 알파벳 대문자 : str.title(), string 맨 앞문자열이 알파벳인 경우 : str.capitalize()
 * rjust : "AB".rjust(5,'1') == "111AB"
 * replace : "AB".replace('1', '#') == "###AB"
 
@@ -34,6 +37,10 @@
 * form itertools import combinations or permutations
 * permutations(list, length) , combinations(list)
 * list(set(map(''.join, permutations(list,length))))
+
+## MATH
+* import math
+* 제곱근 : math.sqrt(num)
 
 ## 기타
 * 타입확인 : type()
