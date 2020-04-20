@@ -42,6 +42,9 @@
 * import math
 * 제곱근 : math.sqrt(num)
 
+## MATRIX
+* 전치행렬 : AT = [[ e for e in t ] for t in zip(*A)] 
+
 ## 기타
 * 타입확인 : type()
 * 10진수 2진수로 변환 : bin(x)[2:] (문자의 앞 2개는 ob라서 슬라이싱함)
