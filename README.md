@@ -5,18 +5,23 @@
 * recursion : import sys sys.setrecursionlimit(10**8)
 * 상하좌우 : dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
 
+## SET
+* set(li) | set(li2) , set(li) & set(li2)
+
 ## HASH
 * dict[key] = dict.get(key,0) + 1
 * dict = {} or dict = dict()
 * b = dict(a) , copy.deepcopy(a)
 * for key, val in dict.items()
 * del dict[key]
+* sum(dict.values())
 
 ## LIST
 * deep copy : import copy, copy.deepcopy(list)
 * 리스트 리버스 : list.reverse() , list(reversed(List))
 * list.count(x) ,list.index(x) < x 없으면 error >
 * '@'.join(list)  ex : a@b@c  
+* list.count(x)
 
 ## SORT
  * list = sorted(list, key = lambda x : (x[0], -x[1]))
@@ -25,6 +30,7 @@
 * for구문으로 string 다루기 : for X in "abc" => X = a, b, c
 * str = "1  "  , str.split(" ") => [1, '', '']  
 * str.upper(), str.lower()
+* char.isalpha() , char.isdigit() 소수는 flase 나온다.
 * string의 첫번째로 나오는 알파벳 대문자 : str.title(), string 맨 앞문자열이 알파벳인 경우 : str.capitalize()
 * rjust : "AB".rjust(5,'1') == "111AB"
 * replace : "AB".replace('1', '#') == "###AB"
