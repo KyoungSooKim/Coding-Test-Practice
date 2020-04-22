@@ -1,9 +1,13 @@
 # 프로그래머스 알고리즘 Reviews with python
 
 ## BFS/DFS
-* queue : from collections import deque
 * recursion : import sys sys.setrecursionlimit(10**8)
 * 상하좌우 : dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
+
+## DEQUE
+* queue : from collections import deque
+* deuqe(maxlen = size) , 만약 큐사이즈가 꽉찼을때 append가 되면 자동으로 popleft 실행하고 사이즈를 맞춰준다
+* deque.remove(value) , del deque[index]
 
 ## SET
 * set(li) | set(li2) , set(li) & set(li2)
