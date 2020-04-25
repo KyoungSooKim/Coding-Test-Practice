@@ -37,7 +37,8 @@
 * char.isalpha() , char.isdigit() 소수는 flase 나온다.
 * string의 첫번째로 나오는 알파벳 대문자 : str.title(), string 맨 앞문자열이 알파벳인 경우 : str.capitalize()
 * rjust : "AB".rjust(5,'1') == "111AB"
-* replace : "AB".replace('1', '#') == "###AB"
+* replace : "AB".replace('A', '#') == "#B"
+* 일치하는 문자열 찾기 : if 'string' in 'Longstring': print('okay')
 
 ## FOR
  * for x, y in zip(list1, list2)
