@@ -21,11 +21,18 @@
 * sum(dict.values())
 
 ## LIST
+* del list[index] , list.remove(number)
 * deep copy : import copy, copy.deepcopy(list)
 * 리스트 리버스 : list.reverse() , list(reversed(List))
 * list.count(x) ,list.index(x) < x 없으면 error >
 * '@'.join(list)  ex : a@b@c  
 * list.count(x)
+
+## HEAP
+* import heapq
+* heapq.heappop(list)
+* heapq.heappush(list, number)
+* heapq.heappify(list)
 
 ## SORT
  * list = sorted(list, key = lambda x : (x[0], -x[1]))
