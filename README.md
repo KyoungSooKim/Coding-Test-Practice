@@ -19,6 +19,23 @@ function findParent( parent, a , b):
   else return 0
 </code></pre>
 
+## 크루스칼 알고리즘 (그리디)
+* 비용이 적은것부터 차근차근 더한다.
+* findParent 함수로 서클이 생기는 경우는 패스한다.
+* parent list는 연결관계를 나타낸다. (연결된 노드중 작은 노드 id를 저장한다, 초기값은 자신의 id)
+<pre><code>
+parent = [], list = [[0,1,1],[1,3,1],[0,2,2],[1,2,5],[2,3,8]] (정렬된 list)
+cnt = 0 , answer = 0
+for i in range(n):
+  parent.append(i)
+for x in list:
+  if cnt == n-1:
+    break
+  if findParent(parent, x[0], x[1]):
+      unionParent(parent, x[0], x[1])
+      answer += x[2]
+      cnt += 1
+</code></pre>
 
 ## BFS/DFS
 * recursion : import sys sys.setrecursionlimit(10**8)
