@@ -1,5 +1,25 @@
 # 프로그래머스 알고리즘 Reviews with python
 
+## Union-Find (합집합 찾기)
+<pre><code>
+function getParent( parent, num ):
+  if parent[num] == num: return num
+  return parent[num] = getParent(ch, parent[num])
+  
+function unionParent( parent, a, b):
+  a = getParent(parent, a)
+  b = getParent(parent, b)
+  if a < b: parent[b] = a
+  else parent[a] = b
+  
+function findParent( parent, a , b):
+  a = getParent(parent, a)
+  b = getParent(parent, b)
+  if a==b: return 1
+  else return 0
+</code></pre>
+
+
 ## BFS/DFS
 * recursion : import sys sys.setrecursionlimit(10**8)
 * 상하좌우 : dx = [-1, 0, 1, 0], dy = [0, 1, 0, -1]
