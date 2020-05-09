@@ -48,6 +48,19 @@ for x in list:
 
 ## SET
 * set(li) | set(li2) , set(li) & set(li2)
+<pre><code>
+# 집합 선언
+set1 = set([1,2,3])
+# 값 하나 추가 
+set1.add(4)
+# 값 여러개 추가 
+set1.update([5,6,7,8,9,10])
+# 값 제거 : remove(x)
+set1.remove(10)
+# 집합 set1 제거
+del set1
+
+</code></pre>
 
 ## HASH
 * dict[key] = dict.get(key,0) + 1
@@ -56,6 +69,9 @@ for x in list:
 * for key, val in dict.items()
 * del dict[key]
 * sum(dict.values())
+<pre><code>
+dic = {a :'v', b:'b'}
+</code></pre>
 
 ## LIST
 * del list[index] , list.remove(number)
